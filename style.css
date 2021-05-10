@@ -1,0 +1,83 @@
+.header {
+    position: relative;
+    width: 1680px;
+    height: 60px;
+    background: #FFFFFF;
+}
+.header_menu {
+list-style-type: none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+color: #18A0FB;
+margin-top: 21px;
+margin-bottom: 21px;
+}
+.header_menu a {
+    text-decoration: none;
+}
+.header_logo_box,
+.header_nav_box,
+.header_form_box {
+    display: inline-block;
+}
+.header_logo_box {
+    float: left;
+    margin-left: 80px;
+}
+.header_form_box {
+float: right;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 80px;
+}
+.header_form_button_one {
+width: 130px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #18A0FB;
+box-sizing: border-box;
+border-radius: 6px;
+margin-right: 12px;
+}
+.header_form_button_two {
+width: 130px;
+height: 40px;
+background: #18A0FB;
+border-radius: 6px;
+padding: 11px 34px 11px 34px;
+}
+.header_logo_text {
+    margin-top: 14px;
+    margin-bottom: 14px;
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 28.4444px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #000000;
+
+}
+.header_menu_links_first {
+    margin-left: 273px;
+}
+.header_menu_links_second {
+    margin-left: 105px;
+}
+.header_menu_links_third {
+    margin-left: 93px;
+}
+.header_menu_links_fourth {
+    margin-left: 129px;
+}
